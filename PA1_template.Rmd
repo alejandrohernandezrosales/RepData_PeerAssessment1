@@ -22,7 +22,6 @@ Show any code that is needed to
 1. Load the data (i.e. read.csv())    
     
 ```{r, echo=TRUE}
-library(data.table)
 tmp<-unz("repdata-data-activity.zip", "activity.csv")
 close(tmp)
 data<-read.csv("activity.csv")

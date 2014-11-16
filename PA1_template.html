@@ -220,13 +220,6 @@ It is now possible to collect a large amount of data about personal movement usi
 <li>Load the data (i.e. read.csv())<br/></li>
 </ol>
 
-<pre><code class="r">library(data.table)
-</code></pre>
-
-<pre><code>## data.table 1.9.4  For help type: ?data.table
-## *** NB: by=.EACHI is now explicit. See README to restore previous behaviour.
-</code></pre>
-
 <pre><code class="r">tmp&lt;-unz(&quot;repdata-data-activity.zip&quot;, &quot;activity.csv&quot;)
 close(tmp)
 data&lt;-read.csv(&quot;activity.csv&quot;)

@@ -23,15 +23,6 @@ Show any code that is needed to
     
 
 ```r
-library(data.table)
-```
-
-```
-## data.table 1.9.4  For help type: ?data.table
-## *** NB: by=.EACHI is now explicit. See README to restore previous behaviour.
-```
-
-```r
 tmp<-unz("repdata-data-activity.zip", "activity.csv")
 close(tmp)
 data<-read.csv("activity.csv")
